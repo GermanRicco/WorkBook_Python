@@ -1,0 +1,15 @@
+# Factores de Conversion
+kPa_to_atm = 0.009869
+kPa_to_mmHg = 7.5006
+kPa_to_libpulg2 = 0.145
+
+# Ingreso de datos
+presionkPa = float(input("Ingrese la presion en kilopascales: "))
+
+#Hago los calculos
+p_atm = presionkPa*kPa_to_atm
+p_mmHg = presionkPa*kPa_to_mmHg
+p_libpulg2 = presionkPa*kPa_to_libpulg2
+
+#Imprimo los resultados todos juntos
+print(str(presionkPa)+"kPa = "+str(p_libpulg2)+"lib/pulg^2 = "+str(p_mmHg)+"mmHg = "+str(p_atm)+"atm")
