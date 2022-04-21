@@ -1,0 +1,12 @@
+# Programa donde tengo de input la temperatura en grados centigrados y convierto a Fahrenheit y Kelvin
+
+# Pido los datos
+temperaturaCelcius = float(input('Escribe la temperatura en grados centigrados: '))
+
+# Hago los calculo
+temperaturaFahrenheit = 9/5*temperaturaCelcius + 32
+temperaturaKelvin = temperaturaCelcius + 273
+
+#Devulevo los valores
+print('Fahrenheit: '+ str(temperaturaFahrenheit))
+print('Kelvin: ' + str(temperaturaKelvin))
