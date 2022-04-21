@@ -2,7 +2,7 @@
 N = int(input('Ingrese un numero entero de cuatro digitos: '))
 
 #Hago los calculos
-def obtenerSuma(N): #Funcion donde entro con el digito N y sale la suma de sus digitos
+def obtenerSuma(N): #Funcion donde entro con el digito N y sale la suma de sus digitos1234
     suma = 0
     for digit in str(N):
         suma += int(digit)
